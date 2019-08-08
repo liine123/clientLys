@@ -33,7 +33,7 @@ button {
 .divBox {
     margin-top: 3%;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .slidecontainer {
