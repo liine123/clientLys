@@ -2,17 +2,39 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" media="screen and (orientation: landscape)" href="styleSheet.css">
-	<title>Lad der blive lys</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Lad der blive lys</title>
 </head>
 
 <body class="overflow">
-	<div>
-        <button>Gul</button>
+    <div class="divImg">
+        <img class="img" src="hexa_web_logo.png">
     </div>
-	<script src="communication.js"></script>
+    <div>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+    </div>
+    <div class="big">
+        <div class="div1">
+            <button>Gul</button>
+            <button>Grøn</button>
+            <button>Blå</button>
+        </div>
+        <div class="div2">
+            <button>Gul</button>
+            <button>Grøn</button>
+            <button>Blå</button>
+        </div>
+        <div class="div3">
+            <button>Gul</button>
+            <button>Grøn</button>
+            <button>Blå</button>
+        </div>
+    </div>
+    <script src="communication.js"></script>
 </body>
 
 </html>
