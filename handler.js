@@ -14,5 +14,4 @@ var slider = document.getElementById("slider");
 var output = document.getElementById("box");
 slider.oninput = function() {
   output.value = this.value;
-
 }
