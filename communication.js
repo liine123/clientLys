@@ -1,5 +1,5 @@
 //printers IP
-var baseUrl = "https://192.168.0.52";
+var baseUrl = "http://192.168.0.52";
 //function to create a request
 function SendRequest(method, url, serviceCall, data) {
 	var request = new XMLHttpRequest();
